@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("portfolio-html-site-master/images/portfolio5.jpg");
+	background-size: cover;
+	background-position: center
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	padding: 2px 20px;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.6s ease;
+	border: 0.5px solid transparent;
+}
+li a:hover{
+	text-decoration: blink;
+	background-color: seagreen;
+	color: #000;
+}
+ul li.active a{
+	background-color: white;
+	color: grey;
+}
+.logo img{
+	float: left;
+	height: 10vh;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	
+}
+.button{
+    position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.hi{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+.hi:hover{
+	background-color: white;
+	color: #000;
+}
